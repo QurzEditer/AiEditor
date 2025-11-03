@@ -1,6 +1,22 @@
 # AiEditor ChangeLog
 
-## v1.4.0 20251015 （AIEditor Pro 商业版）:
+
+## v1.4.2 20251103（开源版）:
+- feat: The `@[username]` function now includes avatar configuration.
+- feat: Added UMD format compilation.
+- feat: Improved list indentation.
+- feat: Fixed an issue where the pop-up menu sometimes displayed incorrectly when a table was selected.
+- feat: Updated related dependencies to the latest version.
+---
+- 新增：`@某某`功能新增头像的配置功能
+- 新增：新增 UMD 格式的编译
+- 优化：优化列表的缩进功能
+- 优化：优化选中表格时，弹出的操作菜单有些时候不正确的问题
+- 优化：更新相关依赖到最新版本
+
+
+
+## v1.4.0 20251015 （商业版）:
 - feat: Added ListKeymap Unified List Shortcut Key Configuration
 - feat: Optimize the configuration results of ListItemExt
 - feat: Further optimize the configuration of mobile devices
@@ -19,7 +35,7 @@
 
 
 
-## v1.3.9 20250917 （AIEditor Pro 商业版）:
+## v1.3.9 20250917 （商业版）:
 - feat: Added a new LaTeX plugin and supports pasting common LaTeX content, such as Feishu.
 - feat: Added support for adding user avatars to Mention.
 - feat: Optimized Markdown parsing logic when pasting plain text.
@@ -54,7 +70,7 @@
 
 
 
-## v1.3.8 20250829（AIEditor Pro 商业版）:
+## v1.3.8 20250829（商业版）:
 - feat: Supports coexistence of code and other marks (compatible with FeiShu format)
 - feat: Supports content recognition of highlighted blocks in Tencent Docs (when pasting...)
 - feat: Optimize TaskItemExt and TaskListExt code
@@ -128,7 +144,7 @@
 - 修复：图片图片有时不触发 onChange 的问题
 
 
-## v1.3.7 20250820（AIEditor Pro 商业版）
+## v1.3.7 20250820（商业版）
 - feat: Added search and replace functionality
 - feat: Added support for more parameter configurations for SearchAndReplaceExt
 - feat: Added support for "end" syntax
@@ -162,7 +178,7 @@
 
 
 
-## v1.3.6 20250625（AIEditor Pro 商业版）
+## v1.3.6 20250625（商业版）
 - fix: Upgrade related dependencies to the latest version
 - fix: The problem of no borders on the table when exporting
 - fix: When inserting a video, it does not display in some cases
@@ -193,7 +209,7 @@
 - 文档: 修改基础配置 示例代码中的 pasteAsText 的层级。AiEditorOptions 类型下没有 pasteAsText
 
 
-## v1.3.5 20250525（AIEditor Pro 商业版）
+## v1.3.5 20250525（商业版）
 - feat: Added imagesEndpoint configuration for users to automatically add prefixes to images when exporting
 - fix: Optimized the style of the translation panel
 - fix: Fixed the problem of automatic line breaks when pasting when pasteAsText is turned on
