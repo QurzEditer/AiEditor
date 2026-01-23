@@ -12,7 +12,7 @@
 new AiEditorPro({
     element: "#aiEditor",
     collaboration: {
-        url: "ws://127.0.0.1:8080?somekey=value",
+        url: "ws://127.0.0.1:3000/collaboration",
         documentName: "my document",
         token: "your-token",
         userName: "Michael Yang",
@@ -35,3 +35,15 @@ new AiEditorPro({
 - **onAuthenticated**:  监听用户的 token 授权成功。
 - **onAuthenticationFailed**:  监听用户的 token 授权失败。
 - **onUsersUpdate**:  监听用户发生变化，比如有新用户加入文档编辑，或者有用户离开等。
+
+其中，`url`、`documentName`、`userName` 是必填项。
+
+例如：
+
+```ts
+ collaboration: {
+    url: "ws://127.0.0.1:3000/collaboration",
+    documentName: "mydocument",
+    userName: "michael",
+}
+```
